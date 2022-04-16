@@ -1,8 +1,12 @@
+# Notice all about this refer from [Original](https://github.com/nt-ca-aqe/keycloak-user-storage)
+And this repo make for Oracle (source is mysql) and  network pool fixed
+
+
 ![](https://github.com/nt-ca-aqe/keycloak-user-storage/workflows/Java%20CI%20on%20REST%20version/badge.svg)
 # Keycloak User Storage SPI demo
 This is a demonstration on how to connect keycloak to a out-of-the-box unsupported user storage type/format. (For demonstration purposes an external MySQL database)
 
-The solution demonstrated in this branch uses manually constructed JPA connection. The reason behind this architectural decision is the way connections are usually established when using the Java Persistence API. Usually there's a `persistence.xml`-file deployed on the application server bundled with the application. 
+The solution demonstrated in this branch uses manually constructed JPA connection. The reason behind this architectural decision is the way connections are usually established when using the Java Persistence API. Usually there's a `persistence.xml`-file deployed on the application server bundled with the application.
 
 This has one major drawback - Connections are hardcoded and providers to different databases require multiple deployments.
 
