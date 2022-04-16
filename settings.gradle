@@ -1,0 +1,2 @@
+// rootProject.name = 'keycloak-user-store'
+rootProject.name = 'keycloak-user-storage-spi-ejb-jpa'
